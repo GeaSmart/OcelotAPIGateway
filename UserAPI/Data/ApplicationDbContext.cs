@@ -7,7 +7,7 @@ namespace UserAPI.Data
     {
         private readonly IConfiguration configuration;
 
-        protected ApplicationDbContext(IConfiguration configuration)
+        public ApplicationDbContext(IConfiguration configuration)
         {
             this.configuration = configuration;
         }
